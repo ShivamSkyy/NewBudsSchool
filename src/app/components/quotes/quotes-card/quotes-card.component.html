@@ -1,0 +1,33 @@
+<mat-card mat-elevation-z8 class="example-card my-3 bg-warning" style="height:fit-content">
+    <div class="container-fluid">
+      <div class="row text-center">
+      </div>
+      <div class="row">
+        <div class="col-md-2 my-auto mx-5">
+          <img mat-card-image src={{quote.imagePath}} width="100%" height='relative'>
+        </div>
+        <div class="col-md-8">
+          <mat-card-content>
+  
+            <div class="row">
+              <img src="../../../assets/images/seedha.png" alt="" width="80px" height="60px">
+            </div>
+  
+            <div class="row px-5 ml-5">
+              <p> <b>
+                  <h5> {{ quote.quote }} </h5>
+                </b> </p>
+            </div>
+  
+            <div class="row" style="float: right;">
+              <img src="../../../assets/images/ulta.png" width="80px" height="60px">
+            </div>
+  
+          </mat-card-content>
+          <mat-card-header style="float: right;">
+            <mat-card-title><b>- {{ quote.speaker }}</b></mat-card-title>
+          </mat-card-header>
+        </div>
+      </div>
+    </div>
+  </mat-card>

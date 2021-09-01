@@ -1,0 +1,156 @@
+<header>
+  <br><br><br>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light intro mat-elevation-z8">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/images/logo.jpg" alt="Logo" style="width:40px; border-radius: 50%;">
+      </a>
+      <a class="navbar-brand text-white" href="#"><b>{{title}}</b></a>
+      <button class="navbar-toggler" style="background-color: rgb(255, 255, 255, 0.4); color: wheat" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-white">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#home"> Home <span class="sr-only">(current)</span>
+              <mat-icon matSuffix>home</mat-icon>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#events"> Events <span class="sr-only">(current)</span>
+              <mat-icon matSuffix>events</mat-icon>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#quotes"> Quotes <span class="sr-only">(current)</span>
+              <mat-icon matSuffix>library_books</mat-icon>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#connect"> Connect <span class="sr-only">(current)</span>
+              <mat-icon matSuffix>call</mat-icon>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#team"> Team <span class="sr-only">(current)</span>
+              <mat-icon matSuffix>group</mat-icon>
+            </a>
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="intro-2 py-5">
+    <div class="full-bg-img">
+      <mat-card mat-elevation-z8 class="mx-5 py-5" style="background-color: rgb(255, 255, 255, 0.4)">
+        <div class="container text-center text-dark wow fadeInUp py-5">
+          <h1>
+            <p class="py-5 text-center">
+              <b>Welcome To <br> New Buds School!!!</b>
+            </p>
+          </h1>
+          <h4>
+            <p class="display-5">
+              Lets learn together
+            </p>
+          </h4>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+
+</header>
+
+<footer style=" width: 100%; height: fit-content;" class="intro">
+
+  <div id="events" class="py-5 text-center">
+    <br><br>
+    <div class="col-md-12 img-b mx-auto">
+      <mat-card-title class="text-warning">
+        <br><br>
+        <h3>Events</h3>
+      </mat-card-title>
+    </div>
+    <br>
+    <div class="container">
+      <app-events></app-events>
+    </div>
+  </div>
+
+  <div id="quotes" class="py-5 text-center">
+    <div class="col-md-12 img-b mx-auto">
+      <mat-card-title class="text-warning">
+        <br><br>
+        <h3>Famous Quotes</h3>
+      </mat-card-title>
+    </div>
+    <br>
+    <div class="container">
+      <app-quotes></app-quotes>
+    </div>
+  </div>
+
+  <div id="connect" class="py-5 text-center">
+    <div class="col-md-12 img-b mx-auto">
+      <mat-card-title class="text-warning">
+        <br><br>
+        <h3>Connect With Us</h3>
+      </mat-card-title>
+    </div>
+    <br>
+    <div class="container">
+      <app-contact></app-contact>
+    </div>
+  </div>
+
+  <div id="team" class="py-5 text-center">
+    <div class="col-md-12 img-b mx-auto">
+      <mat-card-title class="text-warning">
+        <br><br>
+        <h3>Our Team</h3>
+      </mat-card-title>
+    </div>
+    <br>
+    <div class="container">
+      <app-team></app-team>
+    </div>
+  </div>
+
+  <br>
+  <div class="container-fluid intro text-white py-5">
+    <p class="row mx-auto">
+      <img class="" src="../assets/images/logo.jpg" alt="" style="width: 30px; height: 40px; border-radius: 50%;">
+      <b class="col-md-11 my-auto">
+        <h5>
+          New Buds School
+        </h5>
+        <h6>
+          Lets Learn Together...
+        </h6>
+      </b>
+    </p>
+    <div class="text-center">
+      <b class="my-auto">
+        <h6>
+          <button mat-raised-button class="bg-warning" disabled>
+            <img src="../assets/images/gmail.png" alt="" width="20px" height="20px">
+            <b class="text-white"> Mail us at: newbudsschoolofficial@gmail.com</b>
+          </button>
+        </h6>
+      </b>
+      <button mat-raised-button class="bg-warning">
+        <img src="../assets/images/fb.png" alt="" width="20px" height="20px">
+      </button>
+      <button mat-raised-button class="bg-warning">
+        <img src="../assets/images/linkedin.png" alt="" width="20px" height="20px">
+      </button>
+    </div>
+  </div>
+</footer>

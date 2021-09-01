@@ -1,0 +1,18 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.intro {
+    background: url("assets/images/a.jpg")center;
+    background-size: cover;
+}
+
+.intro-2 {
+    background: url("assets/images/photo-1524995997946-a1c2e315a42f.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.img-b {
+    background: url("assets/images/f.png")no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
