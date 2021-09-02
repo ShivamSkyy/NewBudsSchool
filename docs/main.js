@@ -293,19 +293,19 @@ var EventsComponent = /** @class */ (function () {
             {
                 id: 1,
                 title: "Mother's Day",
-                imagePath: "../..assets/images/mother.jpg",
+                imagePath: "assets/images/mother.jpg",
                 date: "12th May'019"
             },
             {
                 id: 2,
                 title: "Republic Day",
-                imagePath: "../..assets/images/republic.jpg",
+                imagePath: "assets/images/republic.jpg",
                 date: "26th January'019"
             },
             {
                 id: 3,
                 title: "School Picnic",
-                imagePath: "../..assets/images/picnic.jpg",
+                imagePath: "assets/images/picnic.jpg",
                 date: "12th January'019"
             }
         ];
